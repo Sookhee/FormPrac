@@ -31,5 +31,11 @@ namespace FormPrac
             cf.MdiParent = this;
             cf.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CustomForm cf = new CustomForm();
+            cf.ShowDialog();
+        }
     }
 }
