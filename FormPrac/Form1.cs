@@ -37,5 +37,11 @@ namespace FormPrac
             CustomForm cf = new CustomForm();
             cf.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.ShowDialog();
+        }
     }
 }
